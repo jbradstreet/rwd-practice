@@ -38,3 +38,11 @@ section {
 	padding: 0;
 	border: 0;
 }
+
+h1, h2, h3, h4 {
+  font-family: 'Nixie One', cursive;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
+}
