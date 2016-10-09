@@ -1,4 +1,10 @@
 @media print and (max-width: 8.5in) {
+
+  body {
+      color: #000;
+      background: #fff;
+   }
+
   #navbar, #mainHeader {
     margin: 10px;
   }
@@ -12,10 +18,14 @@
   #resume {
     float: right;
     width: 33%;
-    margin: auto;
+    margin: auto 20px;
   }
 
   #footer {
     clear: both;
   }
+
+  @page {
+      margin: 2cm;
+   }
 }
