@@ -5,6 +5,7 @@
     <title>Jenni's Pro Website 2.0</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/printstyle.css">
 
     <!-- Google Font Pair -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Nixie+One" rel="stylesheet">
@@ -13,10 +14,11 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
+
   </head>
   <body>
 
-    <section>
+    <section id="navbar">
       <h3>Jenni Bradstreet</h3>
       <nav>
         <ul>
@@ -28,33 +30,37 @@
       </nav>
     </section>
 
-    <header>
+    <header id="mainHeader">
       <h1>Hi! I'm Jenni!</h1>
       <h2>I'm a Seattle-based developer with a background in sales and office administration. I've got a passion for attacking new challenges and becoming a better developer!</h2>
     </header>
 
     <article>
-      <section>
-        <header>
-          <h3>Portfolio</h3>
-          <p>Here are some projects I've done.</p>
-        </header>
+      <section id="portfolio">
+        <article>
+          <header>
+            <h3>Portfolio</h3>
+            <p>Here are some projects I've done.</p>
+          </header>
 
-        <h4>"What The Heck Am I Watching?"</h4>
+          <h4>"What The Heck Am I Watching?"</h4>
           <figure>
             <img src="./img/q1img.png" alt="Screenshot of landing page" />
           </figure>
 
-        <h4>"NervousDonut"</h4>
+          <h4>"NervousDonut"</h4>
           <figure>
             <img src="./img/q2img.png" alt="Creative Writing Made Easy" />
           </figure>
 
-        <h4>"Documentation Extrapolation"</h4>
+          <h4>"Documentation Extrapolation"</h4>
           <figure>
             <img src="./img/q3img.png" alt="Show Your Process" />
           </figure>
+        </article>
+      </section>
 
+      <section id="resume">
         <article>
           <header>
             <h3>Skills</h3>
@@ -73,7 +79,7 @@
       </section>
     </article>
 
-    <footer>
+    <footer id="footer">
 			<p>©2016 all rights reserved. Fill out a form here to get in touch.</p>
 		</footer>
 
